@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy now</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="buy">
+    <header id="buynowHeader">   
+        <div class="logo"><br>
+            <img src="images/log04.jpeg" height="117" width="127">
+            </div>
+            <h1>CEYLON TEA</h1>
+    </header>  
+    <!--main navigation-->
+    <nav id="mainNav">
+        <ul>
+          <li><a href="ceylontea.html" style="color: whitesmoke;">HOME   </a></li> 
+           <li><a href="types of tea.html" style="color: whitesmoke;">TYPES OF TEA   </a></li>
+           <li><a href="SL tea manufactures.html" style="color: whitesmoke;">SRI LANKAN TEA MANUFACTURES</a></li>
+           <li><a href="contact.html" style="color: whitesmoke;">CONTACT US   </a></li>
+           <li><a href="buynow.html" style="color: whitesmoke;">BUY NOW   </a></li>
+        </ul>
+        </nav>
+<div class="mainimage">
+<img src="images/new banner.png"height="400" width="1340"><br>
+</div>
+<section class="section-d1">
+    <form method="GET">
+        <fieldset>
+            <legend>Customer details</legend>
+            <div id="cdetails">
+            <label for="name"> Name:</label><input type="text" id="name" maxlength="40" required ><br>
+            <label for="email"> E-mail:</label><input type="text" id="email" maxlength="70"><br>
+            <label for="tnumber">Telephone Number</label><input type="tel" id="tnumber" maxlength="12" required ><br>
+            </div>
+        </fieldset>
+        <fieldset>
+        <legend>Grab your favorite!</legend>
+       <div class="heading"> Tea manufacture</div>
+       <div id="type">
+        Dilmah:<input type="radio" name="teamanufacture" id="d" ><br>
+        Jones:<input type="radio" name="teamanufacture" id="j" ><br>
+        George Steuart :<input type="radio" name="teamanufacture"  id="gs"><br>
+        Malwatte valley plantations:<input type="radio" name="teamanufacture" id="mvp" ><br>
+        Prestige Ceylon teas  :<input type="radio" name="teamanufacture" id="pct" ><br>
+        Empire teas:<input type="radio" name="teamanufacture" id="et" ><br>
+       </div>
+        <br>
+      
+        
+        <div class="heading"> Packaging type</div>
+        <div id="ptype">
+        Paper pouches :<input type="radio" name="package" id="paperp" ><br>
+        Tins :<input type="radio" name="package" id="tins" checked ><br>
+        Bags :<input type="radio" name="package" id="bags" ><br>
+        </div>
+        <br>
+
+
+        <div class="heading">size</div>
+        <div id="size">
+        Small :<input type="radio" name="type" id="s" ><br>
+        medium:<input type="radio" name="type" id="m" checked ><br>
+        large:<input type="radio" name="type" id="l" ><br>
+        </div>
+        <br>
+
+
+        <div class="heading"> Extras</div>
+        <div id="extra">
+        Mug(LKR500)<input type="radio" name="choice" id="mg"><br>
+        Silver Pin(LKR1000): <input type="radio" name="choice" id="sp"><br>
+        Wooden Souvenir(LKR1500) : <input type="radio" name="choice" id="ws"><br>
+        </div>
+        <br>
+        <br>
+        <div class="doublebutton">
+        <button id="ato" class="cart"><img src="images/cart2.png" height="50" width="50" >Add to order</button>
+        <button id="po" class="cart"><img src="images/placeorder.jpg" height="50" width="50" >Place order</button>
+        <button id="atf" class="cart"><img src="images/heart-add-512.webp" height="50" width="50" >Add to favourite</button>
+        <button id="of" class="cart"><img src="images/add to favourite.webp" height="50" width="50" >Order Favourite</button>
+        </div>
+    </fieldset>
+    </form>   
+</section>
+
+    <section class="section-d1">
+    <form method="GET">
+    <fieldset>
+        <legend>Customer Details</legend>
+        <p id="cname"></p>
+        <p id="customere"></p>
+        <p id="customern"></p>
+    </fieldset> 
+    <fieldset>
+        <legend> Current orders</legend>
+        <p id="currentorder"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Current Order Cost</legend>
+        <p id="cocost">0</p>
+    </fieldset>
+    <fieldset>
+        <legend>Overall Order</legend>
+        <p id="overallo"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Overall Order Cost</legend>
+        <p id="oocost">0</p>
+    </fieldset>
+    <fieldset>
+        <legend>Loyalty Points</legend>
+        <p id="loyaltyppints"></p>
+    </fieldset>
+    </form>
+    <button id="lpoints" class="loyalty"><img src="images/customer-loyalty-icon-simple-element-vector-27121255.jpg" height="75" width="75" >Check Loyalty</button>
+    <p class="d2">
+    <img class="teaimage"  src="images/ceylon-tea-1-638.jpg"  height="500" width="700"><br><br>
+    <img   src="images/3tea.png"  height="200" width="950">
+    </p>
+</section>
+<br>
+<section id="section-d">
+<h2>Brands&prices</h2>
+<div class="summary">
+    <div class="item1">
+        <h3>Dilmah</h3>
+        <img src="images/d7.jpg">
+        <div class="info">
+            <p>Price:LKR1000</p>
+            <p>available size:
+                <li>small(LKR1000)</li>
+                <li>medium(LKR2500)</li>
+                <li>large(LKR5000)</li>
+             </p>
+            <p>pakagetype:
+                <li>Paper pouches(LKR1000)</li>
+                <li>Tins(LKR5000)</li> 
+                <li>Bags(LKR2500)</li>
+            </p>
+        </div>
+        
+    </div>
+    <div class="item2">
+        <h3>jones</h3>
+        <img src="images/jones.jpg">
+        <div class="info">
+            <p>Price:LKR1500</p>
+            <p>available size:
+                <li>small(LKR1000)</li>
+                <li>medium(LKR2500)</li>
+                <li>large(LKR5000)</li>
+             </p>
+            <p>pakagetype:
+                <li>Paper pouches(LKR1000)</li>
+                <li>Tins(LKR5000)</li> 
+                <li>Bags(LKR2500)</li>
+            </p>
+        </div>
+     
+    </div>
+    <div class="item3">
+        <h3>George Steuart </h3>
+        <img src="images/George Steuart.jpg">
+        <div class="info">
+            <p>Price:LKR1000</p>
+            <p>available size:
+                <li>small(LKR1000)</li>
+                <li>medium(LKR2500)</li>
+                <li>large(LKR5000)</li>
+             </p>
+            <p>pakagetype:
+                <li>Paper pouches(LKR1000)</li>
+                <li>Tins(LKR5000)</li> 
+                <li>Bags(LKR2500)</li>
+            </p>
+        </div>
+        
+    </div>
+    <div class="item4">
+        <h3>Malwatte valley plantations </h3>
+        <img src="images/Malwatte valley plantations tea bags.png">
+        <div class="info">
+            <p>Price:LKR2000</p>
+            <p>available size:
+                <li>small(LKR1000)</li>
+                <li>medium(LKR2500)</li>
+                <li>large(LKR5000)</li>
+             </p>
+            <p>pakagetype:
+                <li>Paper pouches(LKR1000)</li>
+                <li>Tins(LKR5000)</li> 
+                <li>Bags(LKR2500)</li>
+            </p>
+        </div>
+    </div>
+
+    <div class="item5">
+        <h3>Prestige Ceylon teas</h3>
+        <img src="images/Prestige Ceylon teas.jpg">
+        <div class="info">
+            <p>Price:LKR1000</p>
+            <p>available size:
+                <li>small(LKR1000)</li>
+                <li>medium(LKR2500)</li>
+                <li>large(LKR5000)</li>
+             </p>
+            <p>pakagetype:
+                <li>Paper pouches(LKR1000)</li>
+                <li>Tins(LKR5000)</li> 
+                <li>Bags(LKR2500)</li>
+            </p>
+        </div>
+        
+    </div>
+    <div class="item6">
+        <h3>Empire teas </h3>
+        <img src="images/e1.jpg">
+        <div class="info">
+            <p>Price:LKR2000</p>
+            <p>available size:
+                <li>small(LKR1000)</li>
+                <li>medium(LKR2500)</li>
+                <li>large(LKR5000)</li>
+             </p>
+            <p>pakagetype:
+                <li>Papernpouches(LKR1000)</li>
+                <li>Tins(LKR5000)</li> 
+                <li>Bags(LKR2500)</li>
+            </p>
+        </div>
+    
+    </div>
+</div>
+
+</section>
+<br>
+
+<!--//footer-->    
+<footer class="footer">
+    <div class="f1">
+        <div class="social-links">
+                <li class="social-items"><a href="#"><img src="images/social-facebook-circle-512.webp" height="50" width="50" ></a></li>
+                <li class="social-items"><a href="#"><img src="images/twitter.png" height="50" width="50"></a></li>
+                <li class="social-items"><a href="#"><img src="images/social-instagram-new-circle-512.webp" height="50" width="50"></a></li>
+                <li class="social-items"><a href="#"><img src="images/social-facebook-messenger-square2-512.webp" height="47" width="50"></a></li>
+            </div>
+         <br>
+         <div class="quick-links">
+            <li class="quick-items"><a href="#">About us</a> </li>
+            <li class="quick-items"><a href="ceylontea.html">Home</a> </li>
+            <li class="quick-items"><a href="contact.html">Contact us</a> </li>
+            <li class="quick-items"><a href="#">Our Services</a> </li>
+            <li class="quick-items"><a href="#">Privacy policy</a> </li>
+
+          
+            
+         </div>
+    </div>
+    <div class="f2">
+      copyright&copy; ceylon Tea. All Rights Reserved
+    </div>
+</footer>
+<script src="buynow.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    background: url(../images/wall1.jpg);
+}
+h1{
+    font-size: 54px;
+    background-color: rgb(153, 141, 126);
+    align-content: center;
+
+
+}
+ol{
+    font-weight: 400;
+    display: flexbox;
+}
+ul{
+   float: left;
+   list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 14px 40px;
+    border:5px solid whitesmoke;
+    background-color: black;
+
+    
+}
+#section-b{
+    color: cornsilk;
+  
+}
+form{
+	margin: 30px 400px;
+    align-content: center;
+    color: black;
+    background-color:  rgb(153, 141, 126);
+    font-weight: 900;
+
+}
+input{
+    align-content: center;
+    color: blanchedalmond;
+}
+fieldset{
+	padding: 12px;
+
+}

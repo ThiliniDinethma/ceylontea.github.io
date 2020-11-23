@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+   background: url(../images/tea-leaf-extract-is-the-new-answer-to-destroy-lung-cancer-cells.jpg);
+
+  background-position: center;
+    
+   
+}
+ol{
+    font-weight: 400;
+    display: flexbox;
+}
+ul{
+   float: left;
+   list-style-type: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    padding: 14px 40px;
+    border:5px solid whitesmoke;
+    background-color: black;
+
+
+    
+}
+h1{
+    font-weight: bold;
+    text-align: inherit;
+    font-size: 77px;
+    background: cornsilk;
+
+}
+form{
+    margin: 100px 350px;
+    font-size: 27px;
+    padding: 20px;
+    background-color: rgba(95, 93, 69, 0.644);
+}
+
+input{
+    height: 24px;
+    width: 170px;
+}
