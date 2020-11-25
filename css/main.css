@@ -9,16 +9,15 @@ body, .loyalty{
 }
 ol{
     font-weight: 400;
-    display: flexbox;
 }
-ul{
+ul.h{
    float: left;
    list-style-type: none;
 }
-ul li{
+ul.h li{
     display: inline-block;
 }
-ul li a{
+ul.h li a{
     text-decoration: none;
     padding: 14px 40px;
     border:5px solid whitesmoke;
@@ -42,7 +41,7 @@ h2{
 .mainimage{
     text-align: center;
 }
-#A{
+#A, .a1, .a2{
     text-transform: uppercase;
     line-height: 27px;
     margin: 0px 70px;
@@ -52,7 +51,6 @@ h2{
     background-image: url(../images/printrest4.jpg);
 }
 .a1, .a2{
-    margin: 0px 70px;
     text-align: justify;  
 }
 #start{
@@ -82,7 +80,6 @@ h2{
     margin-right: 50px;
     color:black;
     display: flex;
-    justify-content: flex-starts;
     flex-direction: column;
    
     
@@ -100,15 +97,22 @@ div.price img{
   width: 50%;
   height: auto;
 }
-div.teaprocess img{
+.teaprocess img{
     border-radius: 150px;
     height:150px;
     min-width: 170px;
     max-width: 240px;
-    widows: 100%;
+    widows: inherit;
     margin: 0 auto;
 
 }
+hr.tt{
+    width: 1170px;
+}    
+hr.dilmah, hr.jones{
+    width: 1070px;   
+}
+
 
 div.desc {
   padding: 17px;
@@ -171,19 +175,14 @@ div.desc {
    
 }
 .areas{
-   text-align: center;
+    margin-left: 540px;
+   text-align: left;
    font-size: 18.7px;
-   font-weight: 400;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    display: flex;
    flex-direction: column;
- 
-  
+   line-height: 34px;
 }
-.areas li{
-    background: url(../images/download\ \(6\).jpg)no-repeat;
-    background-position: center;
-}
+
  .table1, .welcome, .SLM, #start, .buy, #B, .section-d1 form{
     background-size: cover;
  }
@@ -204,6 +203,11 @@ div.desc {
     display: flex;
     background-color: rgba(205, 134, 63, 0.733);
     text-align: justify;
+}
+#section-a .p2, #section-a .p3, #section-a .p4, #section-a .p5{
+    margin-right: 457px;
+    margin-left: 5px;
+    
 }
 
 .table1{
@@ -276,9 +280,10 @@ div.summary img{
    display: block;
    width: 70px;
    margin: 10px auto ;
-    text-align: center;
+text-align: center;
   }
 .summary{
+    font-size: 16px;
     width: auto;
     margin-top:0px;
     display: flex;
@@ -298,23 +303,25 @@ div.summary img{
 }
 .info li{
     font-size: 12px;
-    font-weight: 500;
     color:black;
     margin-bottom: 10px;
 }
-.info p, .heading{
+.info p{
+     line-height: 20px;
+}
+.heading{
     font-weight: 600;
 }
-.buy{
-    font-size: 14px;
-}
+
+
 .section-d1 form{
     background-image: url(../images/form2.jpg);
     color: rgb(10, 10, 10);
-    margin:70px 47px;
     font-size: 20px;
     padding: 10px;
     align-content:flex-end;
+    margin-left: 100px;
+    margin-top: 0;
 }
 
 .cart{
@@ -327,7 +334,6 @@ div.summary img{
 }
 .section-d1{
     box-sizing: border-box;
-   
     float: left;
     width: 70%;
 }
@@ -346,4 +352,16 @@ div.summary img{
 }
 .d2{
     text-align: center;
+}
+div.box{
+    margin-left: 877px;
+    text-align:right;
+    width: 60px;
+    height: 10px;
+}
+div.subimg{
+    margin-left:870px;
+    text-align:right;
+    width: 60px;
+    height: 70px;
 }
