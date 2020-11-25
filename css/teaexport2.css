@@ -18,25 +18,25 @@ h2{
     text-decoration: peru;
 }
 
-ul{
+ul.h{
     float: right;
     list-style-type: none;
- }
- ul li{
+}
+ul.h li{
      display: inline-block;
- }
- ul li a{
+}
+ul.h li a{
      text-decoration: none;
      padding: 17px 27px;
      border:5px solid white;
      background-color:peru;
      
- }
- .mainimage{
+}
+.mainimage{
      text-align: right;
      width: 5%;
      height: auto;
- }
+}
  #section-a, #section-b, #section-c {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
@@ -72,7 +72,7 @@ td{
 }
 .f1{
     margin: 0;
-    padding:14px;
+    padding: 2px;
     background-color: rgba(99, 100, 117, 0.699) ;
     text-align:left;
     
