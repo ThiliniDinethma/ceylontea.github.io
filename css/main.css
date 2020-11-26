@@ -365,3 +365,130 @@ div.subimg{
     width: 60px;
     height: 70px;
 }
+@media(max-width:400px){
+.mainimage img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       height: auto;
+    width: 100%;
+}
+#mainNav ul.h li{  
+         display:block;
+}
+#mainNav ul.h li a{
+         font-size: 14px;
+         padding:2px;
+         border:1px solid whitesmoke;
+         
+}
+h1{
+    font-size: 37px;
+}
+.image, div.d2 img, div.subimg img, .table1 img{
+    height: auto;
+}
+.image{
+    width: 14%;
+}
+div.d2 img{
+    width: 100%;
+}
+.loyalty{
+    font-size: 14px;
+    margin-bottom:10px;
+    margin-left: 70px;
+    padding:1px;
+}
+
+.f1{
+    padding:5px 20px;  
+}
+.social-links{
+    padding:2px;
+    width: 50px;
+    height: 3px;
+
+}
+.quick-links{
+    width: 250px;
+    height: 100px;
+    margin-bottom: 0;
+    
+}
+.social-items a{
+    padding:1px;
+    font-size:2px;
+    
+}
+.quick-items a{
+
+    font-size: 10px;
+    
+}
+.f2{
+    padding: 0px;
+    font-size: 6px;
+}
+ .quick-links, .quick-links li{
+    display: block;
+    line-height: 7px;
+    text-align: left;
+}
+#section1{
+margin-left: 5px;
+margin-right: 5px;
+font-size: 7px;  
+
+
+}
+.teaprocess{
+  max-width: 500px;
+  display: grid;
+  grid-template-columns:repeat(1, 1fr);
+  gap: 2px;
+
+}
+.areas{
+    margin-left: 40px;
+   font-size: 14px;
+   display: flex;
+   flex-direction: column;
+   line-height: 17px;
+}
+div.subimg img{
+    width: 50%;
+    display: block;
+    margin-right:500px;
+
+}
+#section-a{
+    line-height: 20px;
+}
+#section-a .p2, #section-a .p3, #section-a .p4, #section-a .p5{
+    display: block;
+    margin-left:0;
+    margin-right: 100px;
+}
+.table1{
+    width: 40%;
+}
+.table1 img{
+    width: 50%;
+}
+.table1 td li{
+    font-size: 7px;
+
+}  
+#section-b1, #section-b2, #section-b3{
+    width: 100%;
+    font-size: 16px;
+}
+.table1 td, .table1 th{
+    font-size: 10px;
+}
+.table1 th{
+    letter-spacing: 2px;
+    padding: 5px;
+}
+}
