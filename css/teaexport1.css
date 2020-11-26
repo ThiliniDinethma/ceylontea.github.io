@@ -112,3 +112,69 @@ li{
     color: whitesmoke;
     background-color:  rgba(44, 29, 14, 0.808);
 }
+@media(max-width:400px){
+    .mainimage img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+           height: auto;
+        width: 100%;
+    }
+    #mainNav ul.h li{  
+             display:block;
+    }
+    #mainNav ul.h li a{
+             font-size: 14px;
+             padding:2px;
+             border:1px solid whitesmoke;
+             
+    }
+    h1{
+        font-size: 37px;
+    }
+    
+.f1{
+    padding:5px 20px;  
+}
+.social-links{
+    padding:2px;
+    width: 50px;
+    height: 3px;
+
+}
+.quick-links{
+    width: 250px;
+    height: 100px;
+    margin-bottom: 0;
+    
+}
+.social-items a{
+    padding:1px;
+    font-size:2px;
+    
+}
+.quick-items a{
+
+    font-size: 10px;
+    
+}
+.f2{
+    padding: 4px;
+    font-size: 6px;
+}
+ .quick-links, .quick-links li{
+    display: block;
+    line-height: 7px;
+    text-align: left;
+}
+#section-b {
+    display: block;
+    font-size: 15px;   
+}
+th{
+ font-size: 10px;
+}
+#section-c{
+    background-size: 20%;
+}
+}
