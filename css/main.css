@@ -491,4 +491,18 @@ div.subimg img{
     letter-spacing: 2px;
     padding: 5px;
 }
+#start{
+    width:80%;
+    margin-top: 50px;
+    margin-right: 300px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+}
+#section-c form{
+    margin-left: 1px;
+    margin-right:250px ;
+    margin: 20px 100px;
+    
+}	
 }
