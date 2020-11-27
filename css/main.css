@@ -365,7 +365,7 @@ div.subimg{
     width: 60px;
     height: 70px;
 }
-@media(max-width:400px){
+@media(max-width:700px){
 .mainimage img{
     display: flex;
     align-items: center;
